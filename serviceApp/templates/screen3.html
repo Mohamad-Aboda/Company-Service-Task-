@@ -1,17 +1,13 @@
-from 3 welcmome <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+{% extends 'base.html' %}
 
-    <title>Document</title>
-</head>
-<body>
-    
+{% block content %}
+  <div class="alert alert-success">
+    Your request is received and someone will be in touch with you soon
+  </div> 
+  
+  <button type="button" class="btn btn-light">
+
     <a class="navbar-brand" href="{% url 'lead' %}">Back To Home </a>
+  </button>
 
-</body>
-</html>
+{% endblock content %}
