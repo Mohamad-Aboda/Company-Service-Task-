@@ -9,7 +9,6 @@ from .models import Person
 def lead(request):
     return render(request,'lead.html')
 
-
 def screen2(request):
     return render(request, 'screen2.html')
 
@@ -21,6 +20,8 @@ def screen3(request):
 class PersonListView(ListView):
     model = Person
     context_object_name = 'people'
+
+
 
 class PersonCreateView(CreateView):
     model = Person
