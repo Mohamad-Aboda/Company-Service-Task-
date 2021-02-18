@@ -62,5 +62,5 @@
      * run python manage.py migrate 
      * run python manage.py runserver 
   
-  ## The application is run at http://127.0.0.1:8000/
+  ## The application is run at http://127.0.0.1:8000/lead/
   
